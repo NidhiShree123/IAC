@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "location": {
+        "value": "eastasia"
+      },
+      "functionPlanName": {
+        "value": "fcthiarmplan"
+      },
+      "functionAppName": {
+        "value": "fcthiarmapp"
+      },
+      "functionAppRuntime": {
+        "value": "dotnet-isolated"
+      },
+      "functionAppRuntimeVersion": {
+        "value": "8.0"
+      },
+      "storageAccountName": {
+        "value": "fcthiarmstor"
+      },
+      "logAnalyticsName": {
+        "value": "fcthiarmlog"
+      },
+      "applicationInsightsName": {
+        "value": "fcthiarmai"
+      },
+      "zoneRedundant": {
+          "value": false
+      }
+    }
+  }
